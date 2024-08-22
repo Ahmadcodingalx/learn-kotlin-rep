@@ -51,7 +51,7 @@ class MainActivity : ComponentActivity() {
                     Box(
                         modifier = Modifier
                             .fillMaxSize()
-                            .padding(32.dp)
+                            .padding(35.dp)
                     ) {
                         Text(
                             text = valueScanned, modifier = Modifier.align(Alignment.Center)
